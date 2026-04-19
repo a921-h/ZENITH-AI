@@ -1,0 +1,24 @@
+version: '3.8'
+services:
+  # Tu software principal
+  proptech-web:
+    build: .
+    ports:
+      - "3000:3000"
+    depends_on:
+      - ai-brain
+    environment:
+      - AI_SERVICE_URL=http://ai-brain:8000
+
+  # El cerebro de la IA
+  ai-brain:
+    build: ./services/ai-brain
+    volumes:
+      - ./services/ai-brain/models:/app/models
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia # Por si en el futuro usas GPU
+              count: 1
+              capabilities: [gpu]
