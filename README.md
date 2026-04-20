@@ -118,6 +118,14 @@ GEMINI_API_KEY=...    # Required for cloud mode
 
 ---
 
+## 💰 Support & Sponsorship
+If ZENITH has saved you hours of work, please consider supporting its development:
+- **[Donate via Stripe](https://donate.stripe.com/aFa4gr8a43LReAx0p7bbG03)**
+- [GitHub Sponsors](https://github.com/sponsors/a921-h)
+- Feedback and Bug Reports.
+
+---
+
 ## 🤝 Contributing
 Join us in reaching the peak! Check out [CONTRIBUTING.md](CONTRIBUTING.md).
 
