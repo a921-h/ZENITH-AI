@@ -50,4 +50,5 @@ zenith ignite
 Si ZENITH te ha ahorrado horas de trabajo, considera apoyar su desarrollo:
 - **[Donar vía Stripe](https://donate.stripe.com/aFa4gr8a43LReAx0p7bbG03)**
 - [GitHub Sponsors](https://github.com/sponsors/a921-h)
+- [Ver página detallada de Patrocinadores](SPONSORS.es.md)
 - Feedback y Reporte de Bugs.
