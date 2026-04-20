@@ -11,7 +11,7 @@
 ---
 
 ## 📺 Preview
-![Zenith CLI Interface](assets/banner.png)
+![Zenith CLI Interface](assets/zenith.png)
 
 ---
 
