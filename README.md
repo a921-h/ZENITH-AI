@@ -6,12 +6,25 @@
 [![Ollama](https://img.shields.io/badge/Engine-Ollama%20%7C%20Gemma-orange.svg)](https://ollama.ai/)
 [![Gemini](https://img.shields.io/badge/Hybrid-Gemini%201.5-purple.svg)](https://ai.google.dev/)
 
+[Leer en Español 🇪🇸](README.es.md)
+
 **ZENITH** is a high-performance, autonomous AI agent designed to live in your terminal. It acts as a **Staff Engineer**, providing deep architectural insights, secure code refactoring, and project-wide analysis with a local-first philosophy.
 
 ---
 
 ## 📺 Preview
 ![Zenith CLI Interface](assets/zenith.png)
+
+---
+
+## 🛠️ System Requirements
+
+To run ZENITH at peak performance, ensure you meet the following:
+
+- **Python**: 3.10 or higher.
+- **Ollama**: 0.1.x (Required for local-first intelligence).
+- **OS**: Windows (PowerShell), macOS, or Linux.
+- **RAM**: 8GB+ (16GB recommended for running larger local models).
 
 ---
 
@@ -28,12 +41,37 @@ Choose your engine:
 - **Local (Ollama)**: 100% private, zero latency, runs offline.
 - **Cloud (Gemini 1.5)**: Ultra-high context for massive project analysis and complex reasoning.
 
-### 🎭 Specialized Personas
-Switch focus on the fly:
-- `architect`: Patterns, scalability, and system design.
-- `security`: Vulnerability scanning and secure defaults.
-- `reviewer`: Clean code, naming conventions, and best practices.
-- `staff`: Pragmatic, results-oriented technical leadership.
+---
+
+## 🏗️ Architecture
+
+Zenith uses a unique **Nexus Graph** system to maintain project awareness without saturating the LLM context.
+
+```mermaid
+graph TD
+    User([User]) --> CLI[Zenith CLI]
+    CLI --> Scanner[Ignite Scanner]
+    Scanner --> Graph[(Nexus Graph - SQLite)]
+    CLI --> LLM{Hybrid LLM Engine}
+    LLM -- Local --> Ollama[Ollama / Gemma]
+    LLM -- Cloud --> Gemini[Google Gemini 1.5]
+    Graph <--> LLM
+    CLI --> Refactor[Safe Refactor Engine]
+    Refactor --> Diff[Unified Diff Preview]
+    Diff --> Files[Project Files]
+```
+
+---
+
+## ⚔️ Why Zenith?
+
+| Feature | Zenith AI | Aider | Cursor |
+| :--- | :--- | :--- | :--- |
+| **Philosophy** | Local-First / Hybrid | CLI-First | IDE-Integrated |
+| **Memory** | **Nexus Graph** (Logic aware) | Vector Embeddings | Vector Embeddings |
+| **Privacy** | 100% Private (Ollama) | Cloud Dependent | Cloud Dependent |
+| **Context** | Project-wide Knowledge | File-based context | File-based context |
+| **Tooling** | Built-in Terminal UI | Command Line | Full IDE |
 
 ---
 
@@ -57,17 +95,6 @@ zenith ignite
 
 ### 3. Interactive Mode
 Simply run `zenith` to enter the **Interactive Dashboard**.
-
----
-
-## 🛠️ Advanced Usage
-
-| Command | Action |
-| :--- | :--- |
-| `zenith ask "..." -f src/` | Query with recursive directory context. |
-| `zenith refactor <file> "..."` | Automated code improvement with diff preview. |
-| `zenith nexus` | Visualize learned insights and relationships. |
-| `zenith guide` | Detailed in-terminal documentation. |
 
 ---
 
