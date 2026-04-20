@@ -5,6 +5,7 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Ollama](https://img.shields.io/badge/Engine-Ollama%20%7C%20Gemma-orange.svg)](https://ollama.ai/)
 [![Gemini](https://img.shields.io/badge/Hybrid-Gemini%201.5-purple.svg)](https://ai.google.dev/)
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/a921-h?color=pink&label=Sponsor)](https://github.com/sponsors/a921-h)
 
 [Leer en Español 🇪🇸](README.es.md)
 

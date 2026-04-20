@@ -1,6 +1,12 @@
 # 🏔️ ZENITH AI CLI
 **La Cúspide de la Productividad en Terminal e Ingeniería Autónoma**
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Ollama](https://img.shields.io/badge/Engine-Ollama%20%7C%20Gemma-orange.svg)](https://ollama.ai/)
+[![Gemini](https://img.shields.io/badge/Hybrid-Gemini%201.5-purple.svg)](https://ai.google.dev/)
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/a921-h?color=pink&label=Sponsor)](https://github.com/sponsors/a921-h)
+
 ZENITH es un agente de IA autónomo de alto rendimiento diseñado para vivir en tu terminal. Actúa como un **Staff Engineer**, proporcionando arquitectura profunda, refactorización segura de código y análisis de proyectos con una filosofía local-first.
 
 ---
