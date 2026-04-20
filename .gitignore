@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Bases de Datos (Memoria ZENITH)
+*.sqlite
+*.sqlite-journal
+
+# Secretos y Configuración Local
+.env
+.env.local
+.env.production
+*.log
+
+# Archivos de Sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar rastro del proyecto anterior (por si no se borraron)
+src/
+public/
+services/
+node_modules/
+package-lock.json
+.astro/

@@ -1,0 +1,6 @@
+typer[all]
+rich
+google-genai
+python-dotenv
+httpx
+pydantic

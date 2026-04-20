@@ -1,24 +1,36 @@
-version: '3.8'
 services:
-  # Tu software principal
+  # Frontend: Astro App
   proptech-web:
     build: .
     ports:
       - "3000:3000"
-    depends_on:
-      - ai-brain
     environment:
       - AI_SERVICE_URL=http://ai-brain:8000
+      - NODE_ENV=production
+    depends_on:
+      - ai-brain
 
-  # El cerebro de la IA
+  # AI Brain: FastAPI + Ollama (Local) o API (Cloud)
   ai-brain:
     build: ./services/ai-brain
+    ports:
+      - "8000:8000"
     volumes:
-      - ./services/ai-brain/models:/app/models
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia # Por si en el futuro usas GPU
-              count: 1
-              capabilities: [gpu]
+      - ./database.sqlite:/app/database.sqlite
+    environment:
+      - OLLAMA_URL=http://host.docker.internal:11434/api/generate
+      - SCRAPER_URL=http://scraper:8001/scan
+      - TEXT_MODEL=gemma
+      - VISION_MODEL=llava
+
+  # Scraper: FastAPI + Playwright
+  scraper:
+    build: ./services/scraper
+    ports:
+      - "8001:8001"
+    environment:
+      - ASTRO_API_URL=http://proptech-web:3000/api/properties/analyze
+
+networks:
+  default:
+    name: proptech-network
