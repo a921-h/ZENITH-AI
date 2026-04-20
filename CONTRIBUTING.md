@@ -1,45 +1,95 @@
 # 🤝 Contributing to ZENITH AI
+### *Architecting the Future of Terminal Intelligence*
 
-First of all, thank you for being here! **ZENITH** is built by engineers for engineers, and your contributions are what help the system reach its peak.
+First of all, thank you for considering contributing to **ZENITH**! 🏔️
 
----
-
-## 🚀 How to Get Started
-
-1. **Fork the Repository**: Create your own copy of the project.
-2. **Setup Your Environment**: Run `./install.ps1` or `./install.sh` to get all dependencies and the local engine ready.
-3. **Create a Feature Branch**: 
-   ```bash
-   git checkout -b feat/amazing-feature
-   ```
-4. **Build & Test**: Ensure your changes follow the "Staff Engineer" philosophy: clean, technical, and robust.
+ZENITH is an open-source autonomous agent built for high-performance engineering. We value clean code, deep architectural thinking, and pragmatic technical leadership. By contributing, you're helping build the premier local-first AI workspace for developers.
 
 ---
 
-## 🌈 Contribution Areas
+## 🏗️ Why Contribute to Zenith?
 
-### 🧠 Brain & Logic
-Improve prompt engineering, provider integrations (Ollama/Gemini), or the refactoring engine.
-
-### 📁 Nexus Memory
-Enhance the Knowledge Graph, add vector database support, or improve relationship extraction.
-
-### 🎨 CLI & UI
-Refine the terminal experience, add more interactive elements with `rich`, or improve the `guide` command.
+*   **Innovate on the Edge**: Work with cutting-edge **Hybrid AI** (Ollama + Gemini).
+*   **Master Memory Systems**: Contribute to the **Nexus Graph**, our unique logic-aware knowledge system.
+*   **Build Premium Tooling**: Help refine a CLI experience that rivals professional IDEs.
+*   **Community & Growth**: Join a project focused on "Staff Engineer" level standards.
 
 ---
 
-## 📜 Coding Standards
+## 🛠️ Development Setup
 
-- **Pythonic Code**: Follow PEP 8 guidelines.
-- **Typing**: Use Type Hints (`typing` module) for all function signatures.
-- **Documentation**: If you add a feature, update the `README.md` and the internal `guide` command.
-- **Safety First**: Always validate paths using `is_safe_path` before any file operation.
+To start developing on Zenith, follow these steps:
+
+1.  **Fork & Clone**:
+    ```bash
+    git clone https://github.com/YOUR_USERNAME/ZENITH-AI-CLI.git
+    cd ZENITH-AI-CLI
+    ```
+
+2.  **Create a Virtual Environment**:
+    ```bash
+    python -m venv venv
+    # Windows:
+    .\venv\Scripts\activate
+    # macOS/Linux:
+    source venv/bin/activate
+    ```
+
+3.  **Install in Editable Mode**:
+    This allows you to test changes to the `zenith` command instantly.
+    ```bash
+    pip install -e .[all]
+    ```
+
+4.  **Configure Environment**:
+    Copy the template and add your keys (if using Gemini).
+    ```bash
+    cp .env.example .env  # If example exists, or create one
+    ```
+
+---
+
+## 🚀 Contribution Workflow
+
+### 1. Find an Issue
+Look for issues labeled `good-first-issue` or `help-wanted`. If you have a new idea, **open an issue first** to discuss the architectural approach.
+
+### 2. Branching Strategy
+We use a simple branching model:
+*   `feat/...` for new features.
+*   `fix/...` for bug fixes.
+*   `docs/...` for documentation improvements.
+
+### 3. Coding Standards
+*   **Type Safety**: All functions must have Python type hints.
+*   **Clean Code**: We follow PEP 8. Use `black` or `ruff` for formatting.
+*   **Path Security**: Never perform file I/O without using the internal `path_sanitizer`.
+*   **Nexus Alignment**: Ensure new logic respects the "Nexus Graph" memory philosophy.
+
+---
+
+## 🌈 Focus Areas
+
+| Area | Description |
+| :--- | :--- |
+| **🧠 Brain Engine** | Optimizing prompts and LLM provider logic (Gemma, Gemini, Claude). |
+| **📁 Nexus Graph** | Improving entity extraction, relationship mapping, and vector search. |
+| **🎨 Terminal UI** | Enhancing the `rich` dashboard and interactive commands. |
+| **🛡️ Security** | Auditing path-sanitization and adding secure-by-default features. |
+
+---
+
+## ✅ Pull Request Checklist
+
+Before submitting your PR, ensure:
+- [ ] Your code is properly typed and formatted.
+- [ ] You have tested the changes using the `zenith` CLI locally.
+- [ ] The `README.md` or `guide` command is updated if necessary.
+- [ ] Your commit messages are descriptive (following Conventional Commits is a plus).
 
 ---
 
 ## 📬 Communication
-If you find a bug or have a feature idea, please open an **Issue**. We value architectural discussions and technical deep-dives.
+We love technical deep-dives! Join the discussion in our **GitHub Issues** or **Discussions** tab.
 
----
 **Let's reach the peak together. Zenith Team.**
