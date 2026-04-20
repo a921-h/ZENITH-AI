@@ -16,16 +16,20 @@ Al patrocinar ZENITH, estás ayudando a:
 
 ## 💎 Niveles de Patrocinio
 
-### 🥉 Supporter
-*Muestra tu amor por el código abierto y obtén un badge en tu perfil.*
+### 🥉 Supporter ($2/mes)
+*Badge de sponsor en tu perfil y mi eterna gratitud.*
 - **[Convertirse en Supporter](https://donate.stripe.com/aFa4gr8a43LReAx0p7bbG03)**
 
-### 🥈 Professional
-*Para ingenieros que usan Zenith a diario y quieren ayudarlo a crecer.*
-- **[Patrocinio Profesional](https://github.com/sponsors/a921-h)**
+### 🥈 Early Adopter ($10/mes)
+*Aparecerás en el archivo CONTRIBUTORS.md como patrocinador oficial.*
+- **[Convertirse en Early Adopter](https://donate.stripe.com/aFa4gr8a43LReAx0p7bbG03)**
 
-### 🥇 Corporate / Architect
-*Para organizaciones que aprovechan las capacidades autónomas de Zenith.*
+### 🥇 Power User ($25/mes)
+*Prioridad en la revisión de tus Issues y acceso a un canal de Discord/Telegram privado para feedback directo.*
+- **[Convertirse en Power User](https://donate.stripe.com/aFa4gr8a43LReAx0p7bbG03)**
+
+### 🏢 Sponsor Corporativo ($100/mes)
+*Logo de tu empresa en el README.md principal (ideal para atraer visibilidad de startups).*
 - **[Contacto para Patrocinio Corporativo](https://github.com/a921-h)**
 
 ---

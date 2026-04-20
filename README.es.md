@@ -7,6 +7,12 @@
 [![Gemini](https://img.shields.io/badge/Hybrid-Gemini%201.5-purple.svg)](https://ai.google.dev/)
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/a921-h?color=pink&label=Sponsor)](https://github.com/sponsors/a921-h)
 
+---
+
+### [🚀 Inicio Rápido](#-inicio-rápido) | [🤝 Contribuir](CONTRIBUTING.es.md) | [💖 Patrocinar](SPONSORS.es.md)
+
+---
+
 ZENITH es un agente de IA autónomo de alto rendimiento diseñado para vivir en tu terminal. Actúa como un **Staff Engineer**, proporcionando arquitectura profunda, refactorización segura de código y análisis de proyectos con una filosofía local-first.
 
 ---
@@ -22,6 +28,19 @@ Deja que Zenith haga el trabajo pesado. Usando un motor de sanitización de ruta
 ### 🔌 Inteligencia Híbrida
 * **Local (Ollama):** 100% privado, sin latencia, funciona offline.
 * **Nube (Gemini 1.5):** Contexto ultra-alto para análisis de proyectos masivos.
+
+---
+
+---
+
+## 🛠️ Requisitos Previos (Prerequisites)
+
+Para ejecutar ZENITH con el máximo rendimiento, asegúrate de cumplir con:
+
+- **Python**: `3.9+`
+- **Ollama**: (Para modo local) -> [ollama.com](https://ollama.com/)
+- **API Key**: (Para modo nube) -> [Google AI Studio](https://aistudio.google.com/)
+- **OS**: Windows (PowerShell), macOS, o Linux.
 
 ---
 

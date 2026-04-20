@@ -18,16 +18,20 @@ By sponsoring ZENITH, you are helping:
 
 ## 💎 Sponsorship Tiers
 
-### 🥉 Supporter
-*Show your love for open-source and get a badge on your profile.*
+### 🥉 Supporter ($2/month)
+*Badge on your profile and my eternal gratitude.*
 - **[Become a Supporter](https://donate.stripe.com/aFa4gr8a43LReAx0p7bbG03)**
 
-### 🥈 Professional
-*For engineers who use Zenith daily and want to help it grow.*
-- **[Become a Professional Sponsor](https://github.com/sponsors/a921-h)**
+### 🥈 Early Adopter ($10/month)
+*You will be featured in the CONTRIBUTORS.md file as an official sponsor.*
+- **[Become an Early Adopter](https://donate.stripe.com/aFa4gr8a43LReAx0p7bbG03)**
 
-### 🥇 Corporate / Architect
-*For organizations leveraging Zenith's autonomous capabilities.*
+### 🥇 Power User ($25/month)
+*Priority issue review and access to a private Discord/Telegram channel for direct feedback.*
+- **[Become a Power User](https://donate.stripe.com/aFa4gr8a43LReAx0p7bbG03)**
+
+### 🏢 Corporate Sponsor ($100/month)
+*Your company logo on the main README.md (ideal for startup visibility).*
 - **[Contact for Corporate Sponsorship](https://github.com/a921-h)**
 
 ---

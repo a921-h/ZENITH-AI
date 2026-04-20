@@ -7,6 +7,12 @@
 [![Gemini](https://img.shields.io/badge/Hybrid-Gemini%201.5-purple.svg)](https://ai.google.dev/)
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/a921-h?color=pink&label=Sponsor)](https://github.com/sponsors/a921-h)
 
+---
+
+### [🚀 Quick Start](#-quick-start) | [🤝 Contributing](CONTRIBUTING.md) | [💖 Sponsor](SPONSORS.md)
+
+---
+
 [Leer en Español 🇪🇸](README.es.md)
 
 **ZENITH** is a high-performance, autonomous AI agent designed to live in your terminal. It acts as a **Staff Engineer**, providing deep architectural insights, secure code refactoring, and project-wide analysis with a local-first philosophy.
@@ -18,12 +24,13 @@
 
 ---
 
-## 🛠️ System Requirements
+## 🛠️ System Requirements / Prerequisites
 
 To run ZENITH at peak performance, ensure you meet the following:
 
-- **Python**: 3.10 or higher.
-- **Ollama**: 0.1.x (Required for local-first intelligence).
+- **Python**: `3.9+`
+- **Ollama**: (For local mode) -> [ollama.com](https://ollama.com/)
+- **API Key**: (For cloud mode) -> [Google AI Studio](https://aistudio.google.com/)
 - **OS**: Windows (PowerShell), macOS, or Linux.
 - **RAM**: 8GB+ (16GB recommended for running larger local models).
 
