@@ -1,6 +1,8 @@
 # 🤝 Contributing to ZENITH AI
 ### *Architecting the Future of Terminal Intelligence*
 
+[Leer en Español 🇪🇸](CONTRIBUTING.es.md)
+
 First of all, thank you for considering contributing to **ZENITH**! 🏔️
 
 ZENITH is an open-source autonomous agent built for high-performance engineering. We value clean code, deep architectural thinking, and pragmatic technical leadership. By contributing, you're helping build the premier local-first AI workspace for developers.
