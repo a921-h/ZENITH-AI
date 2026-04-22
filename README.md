@@ -9,7 +9,7 @@
 
 ---
 
-### [🚀 Quick Start](#-quick-start) | [🤝 Contributing](CONTRIBUTING.md) | [💖 Sponsor](SPONSORS.md)
+### [🚀 Quick Start](#-quick-start) | [🤝 Contributing](CONTRIBUTING.md) | [💖 Sponsor](SPONSORS.md) | [📄 License](LICENSE)
 
 ---
 
@@ -137,6 +137,14 @@ If ZENITH has saved you hours of work, please consider supporting its developmen
 
 ## 🤝 Contributing
 Join us in reaching the peak! Check out [CONTRIBUTING.md](CONTRIBUTING.md).
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+> Free to use, modify, and distribute. Attribution is appreciated.
 
 ---
 **Reach your peak. ZENITH.**

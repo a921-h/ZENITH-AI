@@ -9,7 +9,7 @@
 
 ---
 
-### [🚀 Inicio Rápido](#-inicio-rápido) | [🤝 Contribuir](CONTRIBUTING.es.md) | [💖 Patrocinar](SPONSORS.es.md)
+### [🚀 Inicio Rápido](#-inicio-rápido) | [🤝 Contribuir](CONTRIBUTING.es.md) | [💖 Patrocinar](SPONSORS.es.md) | [📄 Licencia](LICENSE.es.md)
 
 ---
 
@@ -71,3 +71,14 @@ Si ZENITH te ha ahorrado horas de trabajo, considera apoyar su desarrollo:
 - [GitHub Sponsors](https://github.com/sponsors/a921-h)
 - [Ver página detallada de Patrocinadores](SPONSORS.es.md)
 - Feedback y Reporte de Bugs.
+
+---
+
+## 📄 Licencia
+
+Este proyecto está licenciado bajo la **Licencia MIT** — consulta el archivo [LICENSE.es.md](LICENSE.es.md) para más detalles.
+
+> Libre para usar, modificar y distribuir. Se agradece la atribución.
+
+---
+**Alcanza tu cima. ZENITH.**
